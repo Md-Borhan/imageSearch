@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heroBg {
+  background: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-list {
+  width: 90%;
+  list-style: none;
+  margin: 20px auto;
+}
+
+.photo-item {
+  display: flex;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  margin: 20px 0;
+}
+
+.photo-item img {
+  display: flex;
+  width: 100%;
+  border: 4px double rgba(0, 0, 0, 0.12);
+}
