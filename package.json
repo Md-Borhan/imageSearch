@@ -10,19 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "firebase": "^9.22.1",
+    "@supabase/auth-ui-react": "^0.4.2",
+    "@supabase/supabase-js": "^2.31.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hot-toast": "^2.4.1",
     "react-icons": "^4.9.0",
     "react-loader-spinner": "^5.3.4",
     "react-masonry-component": "^6.3.0",
     "react-responsive-masonry": "^2.1.7",
     "react-router-dom": "^6.11.2",
-    "sort-by": "^1.2.0",
-    "sweetalert2": "^11.7.10"
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
